@@ -1,0 +1,7 @@
+{
+  "apiBaseUrl": "http://localhost:8080",
+  "projectId": "69a37b6e2ef8518208f7eebe",
+  "integrationId": "69a5f23cad255e71a5fe4add",
+  "connectorId": "69a5f23cad255e71a5fe4b0f",
+  "repository": "Thomas-sls/uranus"
+}

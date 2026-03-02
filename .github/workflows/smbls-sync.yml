@@ -1,0 +1,40 @@
+name: smbls-sync
+on:
+  push:
+    branches: ["**"]
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install smbls
+        run: npm i -g @symbo.ls/cli
+
+      - name: Sync to Symbols
+        env:
+          SYMBOLS_API_BASE_URL: http://localhost:8080
+          SYMBOLS_CONNECTOR_ID: 69a5f23cad255e71a5fe4b0f
+          SYMBOLS_API_KEY: ${{ secrets.SYMBOLS_API_KEY }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_RUN_ATTEMPT: ${{ github.run_attempt }}
+        run: |
+          smbls github sync \
+            --server "$SYMBOLS_API_BASE_URL" \
+            --connector "$SYMBOLS_CONNECTOR_ID" \
+            --repository "$GITHUB_REPOSITORY" \
+            --branch "$GITHUB_REF_NAME" \
+            --commit "$GITHUB_SHA" \
+            --event push \
+            --run-id "$GITHUB_RUN_ID" \
+            --run-attempt "$GITHUB_RUN_ATTEMPT"
+
+      - name: Debug (sync endpoint)
+        if: ${{ failure() }}
+        run: echo "Sync endpoint was: http://localhost:8080/core/connectors/github/69a5f23cad255e71a5fe4b0f/sync (repo=Thomas-sls/uranus)"
