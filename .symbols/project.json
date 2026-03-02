@@ -1,0 +1,286 @@
+{
+  "_migrationMeta": {
+    "hasBasedData": false,
+    "hasRichData": false,
+    "sourceVersion": "1.0",
+    "migratedAt": "2026-02-28T23:34:06.048Z"
+  },
+  "_id": "69a37b6e2ef8518208f7eebe",
+  "name": "uranus",
+  "key": "uranus.symbo.ls",
+  "tier": "starter",
+  "projectType": "platform",
+  "state": {},
+  "settings": {
+    "remote": false,
+    "async": false,
+    "inspect": true,
+    "liveSync": true,
+    "syncCanvas": true
+  },
+  "designSystem": {
+    "COLOR": {
+      "black": "#000",
+      "white": "#fff"
+    },
+    "GRADIENT": {},
+    "THEME": {
+      "document": {
+        "@light": {
+          "color": "black",
+          "background": "white"
+        },
+        "@dark": {
+          "color": "white",
+          "background": "black"
+        }
+      },
+      "none": {
+        "color": "none",
+        "background": "none"
+      },
+      "transparent": {
+        "color": "currentColor",
+        "background": "transparent"
+      }
+    },
+    "FONT": {},
+    "FONT_FAMILY": {},
+    "TYPOGRAPHY": {
+      "base": 16,
+      "ratio": 1.25,
+      "subSequence": true,
+      "templates": {}
+    },
+    "SPACING": {
+      "base": 16,
+      "ratio": 1.618,
+      "subSequence": true
+    },
+    "TIMING": {},
+    "CLASS": {},
+    "GRID": {},
+    "ICONS": {},
+    "SHAPE": {},
+    "RESET": {},
+    "ANIMATION": {},
+    "MEDIA": {},
+    "CASES": {},
+    "useReset": true,
+    "useVariable": true,
+    "useFontImport": true,
+    "useIconSprite": true,
+    "useSvgSprite": true,
+    "useDefaultConfig": true,
+    "useDocumentTheme": true,
+    "verbose": false
+  },
+  "components": {},
+  "pages": {},
+  "package": "0",
+  "functions": {},
+  "methods": {},
+  "version": "1.0.1",
+  "versionscount": 2,
+  "seats": 1,
+  "integrations": {},
+  "dependencies": {
+    "smbls": "latest"
+  },
+  "files": {},
+  "snippets": {},
+  "access": "account",
+  "isSharedLibrary": false,
+  "status": "active",
+  "framework": "platform",
+  "designTool": "none",
+  "language": "javascript",
+  "visibility": "private",
+  "environments": {
+    "dev": {
+      "mode": "latest",
+      "branch": "main",
+      "enabled": true,
+      "label": "Development"
+    },
+    "testing": {
+      "mode": "version",
+      "enabled": false,
+      "label": "Testing"
+    },
+    "staging": {
+      "mode": "version",
+      "enabled": false,
+      "label": "Staging"
+    },
+    "prod": {
+      "mode": "published",
+      "enabled": true,
+      "label": "Production"
+    }
+  },
+  "ownerType": "user",
+  "ownerUser": "69261e8060e57748fc212446",
+  "system": {},
+  "canvas": {},
+  "colors": {},
+  "icons": {},
+  "define": {},
+  "versions": [
+    "69a37b6e2ef8518208f7eed8"
+  ],
+  "pullRequests": [],
+  "members": [
+    {
+      "_id": "69a37b6e2ef8518208f7eec1",
+      "user": {
+        "_id": "69261e8060e57748fc212446",
+        "email": "thomas@symbols.app",
+        "name": "Thomas",
+        "username": "thomas",
+        "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLzOMpMtLVoWtCdx2aabhbbK1jKL7EkbAC2UDStgMmw2t1x7tg=s96-c",
+        "id": "69261e8060e57748fc212446"
+      },
+      "project": "69a37b6e2ef8518208f7eebe",
+      "role": "owner",
+      "joinedAt": "2026-02-28T23:34:06.056Z",
+      "createdAt": "2026-02-28T23:34:06.056Z",
+      "updatedAt": "2026-02-28T23:34:06.056Z",
+      "__v": 0,
+      "id": "69a37b6e2ef8518208f7eec1"
+    }
+  ],
+  "packages": {},
+  "payments": [],
+  "project": {},
+  "useLibraries": [],
+  "usedByProjects": [],
+  "domains": {},
+  "environmentHosts": [],
+  "multiEnvironment": {
+    "active": false,
+    "wildcard": null,
+    "totalTls": null
+  },
+  "metadata": {},
+  "slug": "uranus",
+  "createdAt": "2026-02-28T23:34:06.048Z",
+  "updatedAt": "2026-03-02T05:44:21.827Z",
+  "__v": 2,
+  "publishedVersion": "69a37b6e2ef8518208f7eed8",
+  "subscription": "69a37b6e2ef8518208f7eee9",
+  "id": "69a37b6e2ef8518208f7eebe",
+  "schema": {
+    "components": {},
+    "integrations": {},
+    "snippets": {},
+    "pages": {},
+    "state": {},
+    "files": {},
+    "dependencies": {
+      "smbls": {
+        "key": "smbls",
+        "resolvedVersion": "latest",
+        "type": "dependency",
+        "version": "latest",
+        "status": "done"
+      }
+    },
+    "methods": {},
+    "functions": {},
+    "secrets": {},
+    "designSystem": {
+      "COLOR": {
+        "black": "#000",
+        "white": "#fff"
+      },
+      "GRADIENT": {},
+      "THEME": {
+        "document": {
+          "@light": {
+            "color": "black",
+            "background": "white"
+          },
+          "@dark": {
+            "color": "white",
+            "background": "black"
+          }
+        },
+        "none": {
+          "color": "none",
+          "background": "none"
+        },
+        "transparent": {
+          "color": "currentColor",
+          "background": "transparent"
+        }
+      },
+      "FONT": {},
+      "FONT_FAMILY": {},
+      "TYPOGRAPHY": {
+        "base": 16,
+        "ratio": 1.25,
+        "subSequence": true,
+        "templates": {}
+      },
+      "SPACING": {
+        "base": 16,
+        "ratio": 1.618,
+        "subSequence": true
+      },
+      "TIMING": {},
+      "CLASS": {},
+      "GRID": {},
+      "ICONS": {},
+      "SHAPE": {},
+      "RESET": {},
+      "ANIMATION": {},
+      "MEDIA": {},
+      "CASES": {},
+      "useReset": true,
+      "useVariable": true,
+      "useFontImport": true,
+      "useIconSprite": true,
+      "useSvgSprite": true,
+      "useDefaultConfig": true,
+      "useDocumentTheme": true,
+      "verbose": false
+    }
+  },
+  "secrets": {},
+  "__pending": {
+    "count": 0,
+    "uncommitted": false,
+    "etag": "1.0.1:0"
+  },
+  "sharedLibraries": [],
+  "icon": null,
+  "branch": "main",
+  "latestVersion": "1.0.1",
+  "isLatest": true,
+  "projectInfo": {
+    "id": "69a37b6e2ef8518208f7eebe",
+    "key": "uranus.symbo.ls",
+    "name": "uranus",
+    "updatedAt": "2026-03-02T05:44:21.827Z"
+  },
+  "projectMeta": {
+    "id": "69a37b6e2ef8518208f7eebe",
+    "key": "uranus.symbo.ls",
+    "name": "uranus",
+    "tier": "starter",
+    "visibility": "private",
+    "access": "account",
+    "framework": "platform",
+    "language": "javascript",
+    "status": "active",
+    "isSharedLibrary": false,
+    "icon": null,
+    "createdAt": "2026-02-28T23:34:06.048Z",
+    "updatedAt": "2026-03-02T05:44:21.827Z"
+  },
+  "owner": {
+    "id": "69261e8060e57748fc212446",
+    "username": "thomas"
+  }
+}
