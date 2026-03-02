@@ -37,4 +37,5 @@ jobs:
 
       - name: Debug (sync endpoint)
         if: ${{ failure() }}
-        run: echo "Sync endpoint was: http://localhost:8080/core/connectors/github/69a5f23cad255e71a5fe4b0f/sync (repo=Thomas-sls/uranus)"
+        run: |
+          echo "Sync endpoint was: http://localhost:8080/core/connectors/github/69a5f23cad255e71a5fe4b0f/sync (repo=Thomas-sls/uranus)"
